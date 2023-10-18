@@ -150,7 +150,7 @@ a:active {
   display: block;
 }
 .nav .nav-link{
-  color:var(nav-item-link-hover);
+  color:var(--nav-item-link-hover);
   padding: 0.5rem 1rem;
 }
 
