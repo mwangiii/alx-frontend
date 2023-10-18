@@ -34,6 +34,7 @@
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
+    --section-tagline-margin:0;
 }
 
 
@@ -123,6 +124,19 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin);
+}
+/* All elements ul with the class row */
+ul.row{
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+/* All elements with the class col-1-3 */
+.col-1-3{
+  width: 33%;
+  float: left;
+  padding: 0.5rem;
 }
 /* All elements with the class container */
 .container{
@@ -148,10 +162,10 @@ a:active {
 }
 .nav .nav-link{
   display: block;
-}
-.nav .nav-link{
-  color:var(--nav-item-link-hover);
   padding: 0.5rem 1rem;
+}
+.nav .nav-link:hover{
+  color:var(--nav-item-link-hover);
 }
 
 .navbar-menu{
