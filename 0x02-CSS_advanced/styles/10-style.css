@@ -52,7 +52,7 @@ a {
 }
 /* All elements with the class section-header tagline */
 .section-header{
-    align-content: var(--section-header-align);
+    text-align: var(--section-header-align);
 }
 /* All elements with the class section-tagline */
 .section-tagline {
