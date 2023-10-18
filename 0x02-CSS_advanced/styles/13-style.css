@@ -40,23 +40,26 @@ body {
 }
 
 /* For all anchor elements */
-a[href] {
+a {
     color: #161616;
     text-decoration: none;
 }
-
-  a[href]:visited {
+a:link {
+    text-decoration: none;
     font-style: italic;
-  }
-  
-  a[href]:hover {
+}
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
     text-decoration: underline;
-  }
+}
 
-  a[href]:active {
+a:active {
     background-color: var(--color-light-grey);
-  }
-
+}
 
 /*  All elements with the class visually-hidden */
 .visually-hidden {
